@@ -24,7 +24,7 @@ As with most HTML tags, the `a` tag accepts a number of possible attributes. Som
 
 ## Try it yourself
 
-You can cone this repository and load a local copy of [the tutorial page](./tutorial.html) in your browser to see the tag in action. Then make some changes to the file to learn this yourself!
+You can clone this repository and load a local copy of [the tutorial page](./a-tag-tutorial.html) in your browser to see the tag in action. Then make some changes to the file to learn this yourself!
 
 ## Learn More
 
