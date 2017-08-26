@@ -22,6 +22,10 @@ As with most HTML tags, the `a` tag accepts a number of possible attributes. Som
 - `_blank` means "open in a new tab"
 - `_parent` means "if you're looking at an [internal frame](https://developer.mozilla.org/en/docs/Web/HTML/Element/iframe), open this link in the frame's arent tab. Otherwise, just open here like in `_self`
 
+## Try it yourself
+
+You can cone this repository and load a local copy of [the tutorial page](./tutorial.html) in your browser to see the tag in action. Then make some changes to the file to learn this yourself!
+
 ## Learn More
 
 The [Mozilla Developer Network](https://developer.mozilla.org/en/docs/Web/HTML/Element/a) has lots more detail about this and every HTML tag!
