@@ -3,4 +3,9 @@ body {
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
+
+}
+div#imagecontainer {
+  float: left;
+  width: 500px
 }
