@@ -1,32 +1,58 @@
-# Understanding `a` tags in HTML
+# Adding audio and video in HTML
 
-The `a` tag is a fundamental HTML element responsible for much of the linking goodn ess that makes HTML great!
+ Videos and audios make your website more interesting:)
 
-## Components
-Let's take a quick look at how the tag works:
+ This tutorial is to teach you how to use the `video` and `audio` tag.
+ 
+ So you could add more contexts to your website.
+
+## What is a HTML5 Video?
+
+<a href="https://en.wikipedia.org/wiki/HTML5_video">What is a HTML5 Video</a>
+
+In past, We used plug-in tool such as <a href="https://en.wikipedia.org/wiki/Adobe_Flash_Player">Adobe Flash Player</a> to play video in website.
+But Flash is history now,
+Today we use HTML5 <audio> and <video> element to embed a video in a web page.
+ 
+This is a example for code to add a <video> or <audio> in HTML.
 
 ``` html
-<a href="sourceurl">Displayed Text</a>
+  <video width="320" height="240" controls>
+  <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+</video> 
 ```
 
-As in any tag, there's a basic structure of ```<tag attr="value">content</tag>```. The fantastic, amazing attribute in the `a` tag is `href` -- short for "hypertext reference". The `href` attribute identifies a target URL; when this HTML snippet is displayed in a browser, the browser will direct you to the URL in the href attribute. Let's try it out:
+As in any codes, there's a basic structure. Tags `width="" height=''`  adjust the side of containers of video.
 
 ``` html
-<a href="https://google.com">Google Owns All Your Data</a>
+<video width="320" height="240" controls>
 ```
 
-<a href="https://google.com">Google Owns All Your Data</a>
+The tag `autoplay` allows video to play automatically once the website opened
 
-As with most HTML tags, the `a` tag accepts a number of possible attributes. Some of them are used only rarely, but you will often see the `target` attribute in the real world. THis allows you to specify where to open the link you click on:
-- `_self` means "open here"
-- `_blank` means "open in a new tab"
-- `_parent` means "if you're looking at an [internal frame](https://developer.mozilla.org/en/docs/Web/HTML/Element/iframe), open this link in the frame's arent tab. Otherwise, just open here like in `_self`
+``` html
+<video width="320" height="240" autoplay>
+```
 
-## Try it yourself
+The `source` tag tell the browser to find the video from the link address you provided. 
 
-You can clone this repository and load a local copy of [the tutorial page](./a-tag-tutorial.html) in your browser to see the tag in action. Then make some changes to the file to learn this yourself!
+``` html
+<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">>
+```
+The `type` tag identifies the format of the video. 
 
-## Learn More
+``` html
+<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+```
 
-The [Mozilla Developer Network](https://developer.mozilla.org/en/docs/Web/HTML/Element/a) has lots more detail about this and every HTML tag!
 
+
+## Youtube Video
+
+In most situations, you would add youtube videos to your website. It is diffcult to add a youtube video by using <video> code.There is more simple way to add a youtube video.
+ 
+Right click to select the "copy the embed code" option.You get codes with tag <iframe>. The <iframe> tag is used to embed another document within the current HTML document.
+
+``` html
+<iframe width="854" height="480" src="https://www.youtube.com/embed/LSxElWwWVFE" frameborder="0" allowfullscreen></iframe>
+```
