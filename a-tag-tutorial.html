@@ -5,16 +5,97 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>a tag tutorial</title>
+    <title>a HTML5 <Video> <Audio> tutorial</title>
 
     <link rel="stylesheet" href="tutorial.css">
   </head>
 
   <body>
-    <h2> The simplest possible HTML page </h2>
+    
+<div>
+  
+  <h>A HTML5 &lt;video&gt; &lt;audio&gt; tutorial</h>
+  
+  <p>By Peng Lei</p>
+  
+<h1>Add video and audio to webpage</h1>
 
-    <p>Try editing the link and the content in <a href="https://www.google.com">this a tag</a>. It's the miracle of HTML! </p>
+  <p> It is pretty simple to insert a video or audio to your website as long as you could provide links.</p>
 
+  <p>The basic code to add a video is this one.</p>
+  
+  <p1> &lt;video width="" height="" controls&gt;
+  &lt;source src="" type=""&gt;
+&lt;/video&gt; </p1>
+  
+  <p>Elements in the code
+    <ul>
+      <li>width/height  - use to adjust the size of video/audio containers</li>
+      <li>source  - links of video/audio from internet</li>
+      <li>type (video)  - there are 3 supported video formats
+        <ul>
+          <li>mp4</li>
+          <li>webm</li>
+          <li>ogg</li>
+          </ul>
+      </li>
+        <li>type (audio)  - there are 3 supported audio formats
+        <ul>
+          <li>mp3</li>
+          <li>webm</li>
+          <li>wav</li>
+          </ul>
+      </li>
+      </ul>
+  </p>
+  
+  <p>Here is a example.</p>
+    
+  <p1> &lt;video width="320" height="240" controls&gt;
+  &lt;source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4"&gt;
+&lt;/video&gt; </p1>
+  
+  <video width="320" height="240" controls>
+  <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+</video> 
+ 
+ 
+  
+
+   <p> The same goes with &lt;audio&gt;.</p>
+    
+    <p1>&lt;audio width="320" height="240" controls&gt;
+  &lt;source src="http://www.noiseaddicts.com/samples_1w72b820/4033.mp3" type="video/mp4"&gt;
+&lt;/audio&gt;</p1>
+      
+  
+<audio width="320" height="240" controls>
+  <source src="http://www.noiseaddicts.com/samples_1w72b820/4033.mp3" type="video/mp4">
+</audio> 
+    
+<p> Try it out on <a href=https://jsbin.com/?output>Jsbin<a/>.</p> 
+  
+    </div>
+    
+    
+
+<div>
+    <h1> The simplest way to add a youtube video </h1>
+
+    <p>Most of the video you need could be find in youtube Channel, and they provided a simplest way to embed to your website by using iframe tag. 
+     </p>
+  <p> Right click to select the "copy the embed code" option.</p>
+  
+  <img src="https://help.tallyfy.com/wp-content/uploads/2016/09/embed-youtube-1024x640.png" height="480" width="640">
+  
+  <p>You get the code like this &lt;iframe width="854" height="480" src="https://www.youtube.com/embed/LSxElWwWVFE" frameborder="0" allowfullscreen&gt; &lt;/iframe&gt;</p>
+  
+  <p>Paste the code in your HTML and here you go</p>
+  
+  <iframe width="640" height="480" src="https://www.youtube.com/embed/LSxElWwWVFE" frameborder="0" allowfullscreen></iframe>
+
+</div>
+  
   </body>
 
 </html>
