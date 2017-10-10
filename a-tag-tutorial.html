@@ -1,20 +1,33 @@
-<!doctype html>
-<html lang="en">
-
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>a tag tutorial</title>
+<title>a tag tutorial</title>
 
     <link rel="stylesheet" href="tutorial.css">
   </head>
 
   <body>
-    <h2> The simplest possible HTML page </h2>
+    <h1>The CSS <code>Float</code> Property</h1>
+    <h2>By Graham Coulter</h2>
 
-    <p>Try editing the link and the content in <a href="https://www.google.com">this a tag</a>. It's the miracle of HTML! </p>
+    <h3>A tutorial on the intricacies of <code>Float</code> and <code>Clear</code> in CSS</h3>
+    <p1>The <a href="https://www.w3schools.com/css/css_float.asp"><code>float</code> property</a> determines whether or not an element will float. Elements that are placed after the floating element will flow around it and can result in undesirable placement on the web page. To achieve desired placement the <code>float</code> property must be used in conjunction with the <code>clear</code> property.</p1>
+    <h3><i><small>Example 1 (using <code>float</code> with <code>clear</code>):</small></i><h3>
+      <e1><small>Using the <code>float</code> property while applying <code>clear: both;</code> to the following element.</small></e1><e1b><img src="http://www.dennisplucinik.com/blog/wp-content/uploads/2012/04/CSS-Clear-Both.gif"alt="css float and clear properties"style="float:left;clear:both;"></e1b>
+      <h3><i><small>Example 2 (using <code>float</code> without <code>clear</code>):</small></i></h3>
+      <e2><small>Using the <code>float</code> property without applying the <code>Clear</code> property to the following elements.</small></e2>
+      <img src="http://www.dennisplucinik.com/blog/wp-content/uploads/2012/04/CSS-Clear-Both.gif" alt="css float and clear properties" style="float:left;">
+      <h3><i><small>Using <code>Float</code> in HTML:</small></i></h3><pre><code>img src="url" alt="description" style="float:left; clear:"both;"</code></pre>
+      <h3><i><small>Using <code>Float</code> in CSS:</small></i></h3><pre><code>img {
+      float: left;
+      clear: both;
+}</code></pre>
 
+      <h3>Other ways to use <code>float</code>:</h3>
+      <e1><code>Float</code> can also be used to float an image to the right in a paragraph. It also allow the first letter in a paragraph float to the left and separately stylized.</e1>
+      <h3><i><small>Example 1 (floating an image to the right of text):</small></i></h3>
+      <p2>This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text.</p2>
+      <img src="https://maxcdn.icons8.com/Share/icon/Transport//buoy1600.png" alt="A buoy" alt="css float and clear properties" style="float:right;">
+      <h3><i><small>Example 2 (floating the first letter of a paragraph):</small></i></h3>
+      <span><i>T</i></span><p3>his is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text. This is sample text.</p3>
+      <h3>In conclusion:</h3><p1><code>float</code> can be used to create a <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_float5">horizontal menu</a> and a homepage with a <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_webpage">navbar, header, footer, left content and main content</a>.</p1>
   </body>
 
 </html>

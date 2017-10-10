@@ -1,6 +1,119 @@
 body {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: rgb(225, 218, 196);
+}
+code {
+  border: 2px solid rgb(242, 239, 230);
+  background: rgb(242, 239, 230);
+  border-radius: 5px;
+}
+h1 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 20px;
+  color: rgb(92, 111, 172);
+  text-align: center;
+  float: initial;
+  margin: 50 0 10px 0px;
+  border: 2px solid rgb(172, 111, 92);
+    border-radius: 5px;
+  line-height: 100px;
+}
+h2 {
+  font-family: "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    line-height: 50px;
+    clear: both;
+
+}
+h3 {
+    font-family: "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(172, 92, 111);
+    clear: both;
+}
+p1 {
+  font-family: "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(0, 0, 0);
+    float: left;
+    clear: both;
+    margin: 0 0 24px 20px;
+
+}
+p2 {
+  font-family: "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(0, 0, 0);
+    float: left;
+    clear: both;
+    margin: 0 0 24px 20px;
+  width: 500px;
+}
+p3 {
+  font-family: "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(0, 0, 0);
+    float: left;
+    margin: 0 0 10px 5px;
+  width: 500px;
+
+}
+e1 {
+    font-family: "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(92, 111, 172);
+    float: left;
+    clear: both;
+    margin: 0 0 24px 20px;
+}
+e2 {
+    font-family: "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(92, 111, 172);
+
+    margin: 0 0 24px 20px;
+}
+img {
+   width: 275px;
+  padding: 10px;
+}
+span {
+  font-family: "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 30px;
+  float: left;
+  color: rgb(92, 111, 172);
+  clear: both;
+  Float: Left;
+  line-height: 24px;
+  margin: 0 0px 0px;
+}
+pre {
+  font-weight: 400;
+    font-size: 16px;
     line-height: 24px;
+    color: rgb(0, 0, 0);
+    float: left;
+    clear: both;
+    margin: 0 0 24px 24px;
+  background: rgb(400, 400, 400);
+  border: 2px solid rgb(400, 400, 400);
+  padding: 5px;
+    margin: 10px;
+  border-radius: 5px;
 }
